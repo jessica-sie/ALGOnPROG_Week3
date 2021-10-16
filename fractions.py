@@ -20,7 +20,6 @@ while num <= 0:
 while den <= 0:
     den = int(input("Enter denominator with a value greater than 0:"))
 
-# is it a proper improper fraction?
 # proper fractions
 if num <= den:
     print(num, "/", den, " is a proper fraction")
